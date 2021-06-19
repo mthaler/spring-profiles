@@ -11,7 +11,7 @@ class App
 private val log: Logger = LoggerFactory.getLogger(App::class.java)
 
 fun main(args: Array<String>) {
-    System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "dev")
+    //System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "dev")
     val context = AnnotationConfigApplicationContext(AppConfig::class.java)
 
     val obj = context.getBean("movieDao") as MovieDao
