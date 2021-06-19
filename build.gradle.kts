@@ -16,10 +16,10 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework:spring-context")
-    implementation("org.springframework:spring-context-support")
-    implementation("net.sf.ehcache:ehcache")
-    implementation("ch.qos.logback:logback-classic")
+    implementation("org.springframework:spring-context:5.3.8")
+    implementation("org.springframework:spring-context-support:5.3.8")
+    implementation("net.sf.ehcache:ehcache:2.10.9.2")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
     testImplementation(kotlin("test"))
 }
 
