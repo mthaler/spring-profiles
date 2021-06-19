@@ -16,4 +16,14 @@ Alternatively, the profile can be set in `application.properties`:
 spring.profiles.active=prod
 ```
 
+## Default Profile
+
+To make a profile the default profile, we add "default" to the profile:
+
+```kotlin
+ @Profile("prod", "default")
+```
+
+The default profile is used if no `spring.profiles.active` is set.
+
 Code from https://mkyong.com/spring/spring-profiles-example/ ported to Kotlin
