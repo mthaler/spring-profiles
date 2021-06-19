@@ -29,14 +29,14 @@ class AppConfig {
     }
 
     @Bean
-    @Profile("prod")
+    @Profile("prod", "default")
     fun cacheManager(): CacheManager? {
         log.debug("Cache manager is ehCacheCacheManager")
         return EhCacheCacheManager(ehCacheCacheManager().getObject()!!)
     }
 
     @Bean
-    @Profile("prod")
+    @Profile("prod", "default")
     fun ehCacheCacheManager(): EhCacheManagerFactoryBean {
         val cmfb = EhCacheManagerFactoryBean()
         cmfb.setConfigLocation(ClassPathResource("ehcache.xml"))

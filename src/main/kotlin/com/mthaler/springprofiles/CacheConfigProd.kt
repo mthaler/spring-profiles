@@ -11,7 +11,7 @@ import org.springframework.cache.ehcache.EhCacheCacheManager;
 import org.springframework.cache.ehcache.EhCacheManagerFactoryBean;
 
 @Configuration
-@Profile("prod")
+@Profile("prod", "default")
 class CacheConfigProd {
     @Bean
     fun cacheManager(): CacheManager {
