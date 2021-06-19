@@ -26,4 +26,6 @@ To make a profile the default profile, we add "default" to the profile:
 
 The default profile is used if no `spring.profiles.active` is set.
 
-Code from https://mkyong.com/spring/spring-profiles-example/ ported to Kotlin
+## Credits
+
+The example code is a Kotlin port of the code from (Spring Profiles example)[https://mkyong.com/spring/spring-profiles-example/]
