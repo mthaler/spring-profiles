@@ -6,7 +6,6 @@ import org.springframework.context.ConfigurableApplicationContext
 import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.core.env.AbstractEnvironment
 
-
 class App
 
 private val log: Logger = LoggerFactory.getLogger(App::class.java)

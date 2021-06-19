@@ -16,10 +16,10 @@ import org.springframework.core.io.ClassPathResource
 
 @Configuration
 @EnableCaching
-@ComponentScan("com.mthaler.springprofiles.*")
+@ComponentScan("com.mthaler.springprofiles")
 class AppConfig {
 
-    /*private val log: Logger = LoggerFactory.getLogger(AppConfig::class.java)
+    private val log: Logger = LoggerFactory.getLogger(AppConfig::class.java)
 
     @Bean
     @Profile("dev")
@@ -42,5 +42,5 @@ class AppConfig {
         cmfb.setConfigLocation(ClassPathResource("ehcache.xml"))
         cmfb.setShared(true)
         return cmfb
-    }*/
+    }
 }
