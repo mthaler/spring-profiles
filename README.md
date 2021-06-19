@@ -28,4 +28,4 @@ The default profile is used if no `spring.profiles.active` is set.
 
 ## Credits
 
-The example code is a Kotlin port of the code from (Spring Profiles example)[https://mkyong.com/spring/spring-profiles-example/]
+The example code is a Kotlin port of the code from [Spring Profiles example](https://mkyong.com/spring/spring-profiles-example/)
